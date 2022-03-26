@@ -1,0 +1,89 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  
+}
+
+/* HIDE ARROWS FOR INPUT NUMBER*/
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+-webkit-appearance: none;
+margin: 0;
+}
+
+
+.container {
+  margin: 0 auto;
+  text-align: center;
+  min-height: 100vh;
+
+}
+
+
+h1 {
+
+  color: #FFFFFF;
+}
+
+h2 {
+  color: #fff;
+}
+
+p {
+  font-style: normal;
+  font-weight: normal;
+  
+  line-height: 20px;
+  color: #D2D2D2;
+}
+
+#inputNumber {
+  font-size: 100px;
+  font-weight: bold;
+  text-align: center;
+  background: none;
+  border: none;
+  width: 30%;
+  color: #fff;
+}
+
+#inputNumber:focus {
+  outline: none;
+}
+
+.header{
+  box-sizing: border-box;
+  margin-top: 0;
+  padding: 80px;
+  height: 50vh;
+  animation: myanimation 10s infinite;
+}
+
+@keyframes myanimation {
+  0% {background-color: red;}
+  25%{background-color:rgb(180, 180, 42);}
+  50%{background-color:green;}
+  75%{background-color:brown;}
+  100% {background-color: red;}
+}
+
+.header h1 {
+  font-size: 45px;
+}
+
+.conversion {
+  padding-top: 40px;
+  background: #0F2027;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #2C5364, #203A43, #0F2027);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #2C5364, #203A43, #0F2027); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  height: 45.8vh;
+}
+
+.conversion h2 {
+  font-size: 25px;
+}
+
+.conversion p {
+  font-size: 18px;
+}
